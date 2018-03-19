@@ -1,0 +1,17 @@
+Criação da base de dados
+ - Executar o script dentro do arquivo Criação.Sql na pasta raiz.
+
+Caminho do Banco no Programa
+ - Incluir os dados do banco no arquivo 
+	\\Teste\TesteHub\TesteHub\DAO\DadosConexao.cs
+
+
+Tags xml para teste
+
+
+<Conta xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/TesteHub.Models"><ContaMatriz>false</ContaMatriz><DataCriacao>15/03/2018 00:00:00</DataCriacao><Id>1</Id><IdCtPai>1</IdCtPai><IdPessoa>1</IdPessoa><Nome>A</Nome><Saldo>3</Saldo><Situacao>Ativa</Situacao></Conta>
+<Pessoa xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/TesteHub.Models"><Cpf_Cnpj>11111111111</Cpf_Cnpj><DataNascimento>04/08/1988 00:00:00</DataNascimento><Id>1</Id><Nome>Fulano de tal</Nome><NomeFantasia> </NomeFantasia><TipoPessoa>PF</TipoPessoa></Pessoa>
+<Transferencia xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/TesteHub.Models"><DataTransacao>01/01/2018 00:00:00</DataTransacao><Estornada>false</Estornada><IdContaDestino>2</IdContaDestino><Valor>400</Valor><Id>1</Id><IdContaOrigem>1</IdContaOrigem></Transferencia>
+<Aporte xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/TesteHub.Models"><DataTransacao>01/01/2018 00:00:00</DataTransacao><Estornada>false</Estornada><IdContaDestino>1</IdContaDestino><Valor>2</Valor><IdAlpha>15222x111</IdAlpha></Aporte>
+
+
